@@ -11,7 +11,7 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 5px 5px;
+  padding: 5px 10px;
   text-decoration: none;
   float: right;
 }
@@ -23,6 +23,7 @@
 .container {
   text-align: center;
   margin: 100px;
+  margin-top: 8%;
   
 }
 
@@ -122,8 +123,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   user-select: none;
   background-color: #f2f2f2;
-  border: none;
+  border: 1px;
   height: 36px;
+  box-shadow:#f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.googlesearch:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);;
 }
 
 .feelinglucky {
@@ -134,8 +143,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   user-select: none;
   background-color: #f2f2f2;
-  border: none;
+  border: 1px;
   height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f6368;
+  font-size: 14px;
+  
+}
+
+.feelinglucky:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);;
 }
 
 .footer {
@@ -149,6 +166,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background-color: #f2f2f2;
 }
 
 .footerli {
@@ -176,4 +194,10 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   padding: 18px;
 
+}
+
+.left-bar {
+  float: left;
+  display: inline;
+  padding-top: 12px;
 }
