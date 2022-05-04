@@ -27,4 +27,4 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ## **License**
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/SKUNALAN/patikacssodev3/blob/main/LICENSE)
